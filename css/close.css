@@ -168,8 +168,8 @@ li {
 }
 .landing .container p {
   opacity: 70%;
-  max-width: 250px;
-  font-size: 15px;
+  max-width: 350px;
+  font-size: 20px;
 }
 .landing .container .btn {
   margin-top: 25px;
@@ -195,7 +195,6 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: row;
   transform: rotate(-90deg);
 }
@@ -243,12 +242,20 @@ li {
   font-weight: 800;
 }
 
+/* End landing Page */
+
+/* Start Strive */
+.strive {
+  padding: 10px;
+  margin: 20px;
+}
 .strive .container h1 {
   font-size: 35px;
 }
 .strive .container p {
-  font-size: 15px;
+  font-size: 20px;
   opacity: 70%;
+  max-width: 500px;
 }
 
-/* End landing Page */
+/* End Strive */
