@@ -162,11 +162,12 @@ li {
   flex-direction: column;
 }
 .landing .container h1 {
-  font-size: 40px;
+  font-size: 50px;
   max-width: 500px;
 }
 .landing .container p {
   opacity: 70%;
+  max-width: 250px;
 }
 .landing .container .btn {
   margin-top: 25px;
@@ -214,10 +215,6 @@ li {
   transform: rotate(50deg);
 }
 
-.landing .container {
-  padding: 10px;
-}
-
 .landing .container .image {
   margin-top: 100px;
   display: flex;
@@ -235,6 +232,7 @@ li {
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  border: none;
 }
 .landing .container .image div p {
   position: absolute;
@@ -248,24 +246,20 @@ li {
   transform: scale(1.1);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.landing .strive {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 100px;
-  margin-left: 10px;
+
+.strive {
+  margin: 70px;
+  text-align: start;
+  max-width: 500px;
+  margin-top: 50px;
   padding: 10px;
-  background-color: var(--main-color);
 }
 .landing .strive h1 {
-  font-size: 30px;
-  color: #fff;
+  font-size: 35px;
 }
 .landing .strive p {
-  font-size: 14px;
+  font-size: 20px;
   opacity: 70%;
-  color: aliceblue;
 }
 
 /* End landing Page */
