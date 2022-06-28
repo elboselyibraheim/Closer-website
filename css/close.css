@@ -160,6 +160,7 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 .landing .container h1 {
   font-size: 50px;
@@ -168,6 +169,7 @@ li {
 .landing .container p {
   opacity: 70%;
   max-width: 250px;
+  font-size: 15px;
 }
 .landing .container .btn {
   margin-top: 25px;
@@ -184,35 +186,29 @@ li {
   padding: 10px;
 }
 
-.landing .container ul {
+.landing .container .links {
+  position: absolute;
+  top: 200px;
+  right: -100px;
+}
+.landing .container .links ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 1083px;
-  margin-top: -220px;
+
   flex-direction: row;
   transform: rotate(-90deg);
 }
-.landing .container ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.landing .container .links ul li a {
   margin: 20px;
-  flex-direction: row;
-}
-.landing .container ul li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  flex-direction: row;
   color: var(--main-color);
-  font-size: 13px;
+  font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.landing .container ul li a:hover {
-  transform: rotate(50deg);
+.landing .container .links ul li a:hover {
+  transform: rotate(20deg);
 }
 
 .landing .container .image {
@@ -234,6 +230,10 @@ li {
   transition: all 0.3s ease-in-out;
   border: none;
 }
+.landing .container .image img:hover {
+  transform: scale(1.1);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 .landing .container .image div p {
   position: absolute;
   bottom: 5%;
@@ -242,23 +242,12 @@ li {
   font-size: 20px;
   font-weight: 800;
 }
-.landing .container .image img:hover {
-  transform: scale(1.1);
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
 
-.strive {
-  margin: 70px;
-  text-align: start;
-  max-width: 500px;
-  margin-top: 50px;
-  padding: 10px;
-}
-.landing .strive h1 {
+.strive .container h1 {
   font-size: 35px;
 }
-.landing .strive p {
-  font-size: 20px;
+.strive .container p {
+  font-size: 15px;
   opacity: 70%;
 }
 
