@@ -151,27 +151,26 @@ li {
 /* Start landing Page */
 
 .landing {
-  padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
-}
-.landing .container {
+  min-height: calc(100vh - 60px);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
 }
-.landing .container h1 {
+
+.landing h1 {
   font-size: 50px;
   max-width: 500px;
 }
-.landing .container p {
+.landing p {
   opacity: 70%;
   max-width: 350px;
   font-size: 20px;
 }
-.landing .container .btn {
+.landing .btn {
   margin-top: 25px;
   padding: 18px 20px;
   cursor: pointer;
@@ -181,17 +180,17 @@ li {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.landing .container .btn a {
+.landing .btn a {
   color: #fff;
   padding: 10px;
 }
 
-.landing .container .links {
+.landing .links {
   position: absolute;
   top: 200px;
   right: -100px;
 }
-.landing .container .links ul {
+.landing .links ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,18 +198,18 @@ li {
   transform: rotate(-90deg);
 }
 
-.landing .container .links ul li a {
+.landing .links ul li a {
   margin: 20px;
   color: var(--main-color);
   font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.landing .container .links ul li a:hover {
+.landing .links ul li a:hover {
   transform: rotate(20deg);
 }
 
-.landing .container .image {
+.landing .image {
   margin-top: 100px;
   display: flex;
   justify-content: center;
@@ -219,21 +218,21 @@ li {
   flex-wrap: wrap;
 }
 
-.landing .container .image div {
+.landing .image div {
   position: relative;
 }
-.landing .container .image div img {
+.landing .image div img {
   height: 350px;
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   border: none;
 }
-.landing .container .image img:hover {
+.landing .image img:hover {
   transform: scale(1.1);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.landing .container .image div p {
+.landing .image div p {
   position: absolute;
   bottom: 5%;
   left: 30%;
