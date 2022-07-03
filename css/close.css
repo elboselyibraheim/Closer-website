@@ -248,12 +248,16 @@ li {
   content: attr(data-work);
   position: absolute;
   left: 50%;
-  top: 75%;
+  bottom: -5%;
   transform: translateX(-50px);
   color: #fff;
   font-weight: 500;
   font-size: 25px;
+  transition: all 0.3s ease-in-out;
   z-index: 1;
+}
+.landing .image .box:hover::before {
+  bottom: 15%;
 }
 
 .landing .image .box img {
