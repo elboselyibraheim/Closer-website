@@ -64,6 +64,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .nav .container .links {
   display: flex;
@@ -169,7 +170,8 @@ li {
 
 .landing h1 {
   font-size: 50px;
-  max-width: 500px;
+  max-width: 450px;
+  min-width: 350px;
 }
 .landing p {
   opacity: 70%;
@@ -209,6 +211,11 @@ li {
   align-items: center;
   flex-direction: row;
   transform: rotate(-90deg);
+}
+@media (max-width: 650px) {
+  .landing .links ul {
+    display: none;
+  }
 }
 
 .landing .links ul li {
