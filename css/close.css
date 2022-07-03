@@ -117,10 +117,11 @@ li {
   color: black;
   font-size: 14px;
   font-weight: 500;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav .links li a:hover {
-  color: var(--main-color);
+  transform: var(--main-color);
 }
 .nav .logo p {
   font-size: 18px;
@@ -137,14 +138,19 @@ li {
   border-radius: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 0.4s ease-in-out;
 }
 .nav .btn:hover {
-  box-shadow: 0, 0, 0, 10, 0.1;
+  background-color: #fff;
 }
+
 .nav .btn a {
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
+}
+.nav .btn:hover a {
+  color: var(--main-color);
 }
 /* END Navbar */
 
@@ -153,7 +159,7 @@ li {
 .landing {
   padding-bottom: 100px;
   text-align: center;
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,7 +177,7 @@ li {
   font-size: 20px;
 }
 .landing .btn {
-  margin-top: 25px;
+  margin-top: 15px;
   padding: 18px 20px;
   cursor: pointer;
   background-color: var(--main-color);
@@ -179,10 +185,17 @@ li {
   border-radius: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 0.4s ease-in-out;
+}
+.landing .btn:hover {
+  background-color: #fff;
 }
 .landing .btn a {
   color: #fff;
   padding: 10px;
+}
+.landing .btn:hover a {
+  color: var(--main-color);
 }
 
 .landing .links {
@@ -213,7 +226,7 @@ li {
 }
 
 .landing .image {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
