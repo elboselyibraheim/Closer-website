@@ -198,15 +198,18 @@ li {
   transform: rotate(-90deg);
 }
 
-.landing .links ul li a {
+.landing .links ul li {
   margin: 20px;
   color: var(--main-color);
-  font-size: 20px;
+  font-size: 15px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s linear;
 }
-.landing .links ul li a:hover {
-  transform: rotate(20deg);
+.landing .links ul li:hover {
+  transform: scale(1.2);
+}
+.landing .links ul li a {
+  color: var(--main-color);
 }
 
 .landing .image {
