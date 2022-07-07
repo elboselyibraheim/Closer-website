@@ -300,16 +300,33 @@ li {
   margin-top: 300px;
 }
 .strive .container .select-section .select-col {
+  width: fit-content;
 }
 .strive .container .select-section .select-col h4 {
   font-size: 15px;
-  margin: 12px;
-  padding: 10px;
+  padding: 15px;
+  margin: 0;
   text-align: start;
-  border: 1px solid gray;
+  border-bottom: 1px solid gray;
   font-weight: 300;
+  transition: all 0.3s ease-in-out;
+}
+.strive .container .select-section .select-col h4:hover {
+  background-color: var(--main-color);
+  color: #fff;
+  transform: scale(1.1);
+}
+.strive .container .select-section .select-col > h4:active {
+  background-color: var(--main-color);
+  color: #fff;
 }
 .strive .container .select-section .info-sec {
+}
+.strive .container .select-section .info-sec h2 {
+  font-size: 25px;
+}
+.strive .container .select-section .info-sec p:first-child {
+  font-size: 15px;
 }
 .strive .container .select-section .img-sec {
   max-height: 300px;
