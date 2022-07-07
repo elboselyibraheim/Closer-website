@@ -62,7 +62,7 @@ li {
 .nav .container {
   margin-top: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -291,4 +291,34 @@ li {
   max-width: 500px;
 }
 
+.strive .container .select-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 300px;
+}
+.strive .container .select-section .select-col {
+}
+.strive .container .select-section .select-col h4 {
+  font-size: 15px;
+  margin: 12px;
+  padding: 10px;
+  text-align: start;
+  border: 1px solid gray;
+  font-weight: 300;
+}
+.strive .container .select-section .info-sec {
+}
+.strive .container .select-section .img-sec {
+  max-height: 300px;
+}
+.strive .container .select-section .img-sec {
+  max-height: 300px;
+}
+.strive .container .select-section .img-sec img {
+  width: 100%;
+  border-radius: 50px;
+}
 /* End Strive */
